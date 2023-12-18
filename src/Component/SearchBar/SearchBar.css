@@ -1,0 +1,61 @@
+/* .searchBar{
+    position:absolute;
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+} */
+
+.searchBar{
+    position: absolute;
+    /* right: 300px; */
+    top: 50px;
+}
+
+.searchBar input{
+    border: 1px solid #7a7a7a;
+    border-radius: 75px;
+    padding: 10px;
+    width: 100px;
+}
+
+.searchBar input:hover{
+    background-color: #f3f3f3;
+}
+
+.searchBar input:focus{
+    outline: none;
+    background-color: #f3f3f3;
+}
+
+.searchBar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    /* position: relative; */
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow for a dropdown effect */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: none; /* Remove top border to connect with the input field */
+    border-radius: 0 0 5px 5px;
+    z-index: 1;
+    overflow-y: scroll;
+  }
+  
+  /* Style for each suggestion item in the dropdown */
+ .searchBar li {
+    text-decoration: none;
+    padding: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Highlight the suggestion on hover */
+  .searchBar li:hover {
+    background-color: #f0f0f0;
+  }

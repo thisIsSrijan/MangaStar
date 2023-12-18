@@ -1,0 +1,36 @@
+.item{
+    width: auto;
+    transition: 0.3s;
+}
+
+.item p{
+    margin: 6px 0px;
+}
+
+.item-prices{
+    color: #374151;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.item-old-price{
+    color: #374151;
+    font-size: 14px;
+    /* font-weight: 400; */
+    text-decoration: line-through;
+}
+
+.item-price{
+    color: #374151;
+    font-size: 14px;
+    font-weight: 600; 
+}
+
+.item-new-price{
+    color:rgb(239, 165, 7);
+}
+
+.item:hover{
+    transform: scale(1.05);
+    transition: 0.6s;
+}
