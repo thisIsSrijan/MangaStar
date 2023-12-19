@@ -1,0 +1,42 @@
+/* FailurePage.css */
+
+.failure-container {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 400px;
+    background-color: #ffe4e1; /* Light salmon, you can change it */
+    border: 1px solid #d87093; /* Border color */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .failure-icon {
+    color: #d87093; /* Darker pink color for the failure icon */
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .failure-container h1 {
+    color: #d87093;
+  }
+  
+  .failure-container p {
+    color: #333;
+  }
+  
+  .retry-button {
+    background-color: #d87093;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .retry-button:hover {
+    background-color: #b94d6b; /* Darker pink on hover */
+  }
+  
