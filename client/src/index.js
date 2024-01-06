@@ -1,14 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import ShopContextProvider from './Context/ShopContext';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import ShopContextProvider from "./Context/ShopContext";
+import { ResponsiveApp } from "./ResponsiveApp";
+// const getWindowsWidth = window.innerWidth;
+// const getWindowsHeight = window.innerHeight;
+// console.log(getWindowsWidth, getWindowsHeight);
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <ShopContextProvider>
-    <App />
+    <ResponsiveApp />
   </ShopContextProvider>
 );
 

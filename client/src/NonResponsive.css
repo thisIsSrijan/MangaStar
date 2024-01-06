@@ -1,0 +1,47 @@
+/* CoolPage.css */
+
+.non-responsive {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #282c34;
+  overflow: hidden;
+}
+
+.cool-page {
+  text-align: center;
+  color: #61dafb;
+  position: relative; /* Ensure proper positioning of the particle container */
+}
+
+.title {
+  font-size: 2em;
+  margin-bottom: 20px;
+  animation: fadeInUp 1.5s ease-out;
+}
+
+.message {
+  font-size: 1.2em;
+  animation: fadeInUp 2s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Particle Animation Styles (if needed) */
+
+/* Customize particle styles here if desired */
+/* .tsparticles-canvas-el {
+  background-color: transparent !important;
+} */
