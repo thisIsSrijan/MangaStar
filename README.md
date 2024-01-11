@@ -11,3 +11,5 @@ For client deployment:
    from = "/*"
    to = "/index.html"
    status = 200
+
+   ## Website not responsive yet
