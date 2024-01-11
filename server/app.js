@@ -29,7 +29,7 @@ app.post("/api/payment", async (req, res) => {
     res.json({id: session.id})
 });
 
-app.listen(5000, () => {
+app.listen(8080, () => {
     console.log("Server running on port 5000");
 })
 
