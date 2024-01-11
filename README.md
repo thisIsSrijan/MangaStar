@@ -12,4 +12,4 @@ For client deployment:
    to = "/index.html"
    status = 200
 
-   ## Website not responsive yet
+   _Website not responsive yet_
